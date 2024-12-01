@@ -1,0 +1,29 @@
+{
+  "name": "smart-gadget-server",
+  "version": "1.0.0",
+  "description": "Smart Gadget Server.",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "#Gadget",
+    "#Smart",
+    "#Mobile",
+    "#Phone"
+  ],
+  "author": "Md. Mahdiul Hasan.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
